@@ -1,0 +1,144 @@
+*{
+    .special-gothic-expanded-one-regular {
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+      
+}
+
+body{
+    margin: 0px;
+    background-color: blanchedalmond;
+
+}
+.container{
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    background-attachment: white;
+    border: 1px solid rgb(191, 31, 31);
+    box-shadow: 0px 0px 25px rgba(185, 24, 24, 0.1) ;
+}
+.main-header{
+    display: flex ;
+    justify-content: space-between;
+    padding: 25px;
+}
+.search-holder form > input[type="search"]{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+.search-holder form > button[type="submit"]{
+    background-color: black;
+    color: aliceblue;
+    padding: white;
+    border: 0px;
+    margin-left: -5px;
+}
+.main-menu{
+    background-color: red;
+    color: black;
+
+}
+.main-menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+.main-menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    size: 1px;
+}
+.main-menu > ul > li > a:hover{
+    background-color: greenyellow;
+
+}
+.drop{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+
+}
+.drop > li > a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+.drop > li > a:hover{
+    background-color: whitesmoke ;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+.lSPager{
+    margin-top: -25px !important;
+}
+.content-holder{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border-bottom: 1px solid grainsboro;
+}
+ .content-holder .content {
+    padding: 25px;
+    background-color: white;
+    width: 80%;
+
+ }
+ .content-holder .content h1 ~ h2 {
+    font-size: 1em;
+    color: darkgray;
+ }
+ .sidebar{
+    padding: 25px;
+    width: 20%;
+ }
+ .sidebar .widget h3{
+    color: white;
+
+ }
+.sidebar .widget ul, 
+.footer-widget ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar .widget ul > li > a,
+.footer-widget li {
+    color: white;
+    text-decoration: none;
+}
+.sidebar .widget ul > li > a:hover{
+    color: black;
+}
+.footer-widget-holder{
+    display: flex;
+    background-color: black;
+    color:antiquewhite;
+    justify-content: space-around;
+}
+.footer-widget{
+    padding: 25px;
+    font-size: small;
+}
+.site-footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+.site-footer p{
+    margin: 0px;
+}
