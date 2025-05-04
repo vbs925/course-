@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+        <header class="main-header">
+        <div class="logo-holder">
+            <a href ="#">
+                <img src="logo.jpg.avif" alt="cool business">
+            </a>
+        </div>
+        <div class="search-holder">
+            <form action="" method="get">
+                <input type="search" name="s" placeholder="search for ">
+                <button type="submit">search</button>
+            </form>
+        </div>
+
+    
+ </header>
+ <nav class="main-menu">
+    <ul>
+        <li><a href="#"> Home </a></li>
+        <li><a href="#"> Services </a>
+            <ul class="drop">
+                <li><a href="#">Services one</a></li>
+                <li><a href="#">Services two</a></li>
+                <li><a href="#">Services three</a></li>
+            </ul>
+        </li>
+        <li><a href="#"> Products</a></li>
+        <li><a href="#"> About </a></li>
+        <li><a href="#"> Contact </a></li>
+    </ul>
+ </nav>
+ <section class="banner-slider">
+    <ul id="adaptive">
+        <li><img src="https://placehold.co/900x300"></li>
+        <li><img src="https://placehold.co/900x300"></li>
+        <li><img src="https://placehold.co/900x300"></li>
+    </ul>
+ </section>
+  <section class="content-holder">
+    <main class="content">
+        <h1>Main Heading for site</h1>
+        <h2>sub heading for site</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate corrupti fugit, tempore voluptatem cumque laudantium? Omnis velit quo explicabo ipsam, cumque itaque quae eius ipsum aliquam at qui voluptate.</p>
+        <p>Excepturi corporis temporibus voluptates delectus incidunt, laboriosam porro esse, sed aliquam quam necessitatibus cum accusantium magni vero assumenda architecto. Voluptas quod inventore error incidunt aliquid eaque rerum sunt facilis quas.</p>
+        <p>Culpa, aliquid rem placeat ut vero quidem praesentium, quaerat itaque harum quis, amet neque. Ab omnis dolorem beatae eligendi? Aliquid ut soluta animi mollitia est in illo explicabo inventore iure.</p>
+    </main>
+    <aside class="sidebar">
+        <div class="widget">
+            <h3>follow us</h3>
+            <ul>
+                <li><a href="#">twitter</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">linkdIn</a></li>
+            </ul>
+        </div>
+    </aside>
+  </section> 
+ <section class="footer-widget-holder">
+    <div class="footer-widget">
+        <a href="#">
+            <img src="img/logo.png" alt="cool company">
+        </a>
+        <h3>Address</h3>
+        <address>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus enim nisi, asperiores numquam tempora alias debitis repellat nemo ex inventore esse voluptatem exercitationem architecto, aperiam sapiente saepe, veritatis hic totam.</p>
+        </address> 
+        
+    </div>
+    <div class="footer-widget">
+        <h4>sitemap</h4>
+        <ul>
+            <li><a href="#">home </a></li>
+            <li><a href="#">Services </a></li>
+            <li><a href="#">products </a></li>
+            <li><a href="#">about </a></li>
+            <li><a href="#">contact </a></li>
+        </ul>
+
+     </div>
+     <div class="footer-widget">
+        <h4>sitemap</h4>
+        <ul>
+            <li><a href="#"> home </a></li>
+            <li><a href="#"> Services </a></li>
+            <li><a href="#"> products </a></li>
+            <li><a href="#"> about </a></li>
+            <li><a href="#"> contact </a></li>
+        </ul>
+
+     </div>
+     <div class="footer-widget">
+        <h4>sitemap</h4>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">products </a></li>
+            <li><a href="#">about </a></li>
+            <li><a href="#">contact </a></li>
+        </ul>
+
+     </div>
+    </section>
+     <footer class="site-footer">
+    <p><small>copyright &copy; 2025</small></p>
+     </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+</script>
+
+</body>
+</html>
